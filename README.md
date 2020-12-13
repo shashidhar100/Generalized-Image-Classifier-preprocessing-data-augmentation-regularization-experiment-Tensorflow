@@ -16,7 +16,7 @@ The file Classifier Experiments.ipynb has the experiment code and there are othe
       * "1": Normalization [0,1] 
       * "2": Per Pixel Standardization
   ## Data augmentation (argument Augmentation in class experiments)
-    When and what kind of augmentations to be performed on the Training data. Augmentation is done as per the callable image transformation functions given in the argument             augmentation_list.
+    When and what kind of augmentations to be performed on the Training data. Augmentation is done as per the callable image transformation functions given in the argument           augmentation_list.
       "0": No augmentation
       "1": augmentation before training
       "2": augmentation after augmentation_steps epochs and using original data when epoch % augmentation_steps!=0
